@@ -1,0 +1,4 @@
+- Faltó comentar la función que realiza suma() en archivo functions.py
+- No es necesario darle valores a numero1 y numero2 ya que estos atributos se asignan al llamar la función en main.py
+- En el primer commit creo que falta especificar cual archivo fue el que creaste, en este caso main.py
+- En el segundo commit faltó especificar cual fue el archivo .py que se creó, y dentro de este falto especificar cuales son los nombres de las funciones creadas.
