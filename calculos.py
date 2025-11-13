@@ -2,3 +2,6 @@ def areatri(base,altura): #Se encarga de devolver el area de un triangulo RECTAN
     return base*altura / 2
 def areacuadra(lado): #Se encarga de devolver el area de un cuadrado donde lado es el LADO de un cuadrado
     return lado*lado
+
+def areacirculo(radio):
+    return (3.1416*radio)**2

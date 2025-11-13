@@ -1,4 +1,4 @@
-from calculos import areatri,areacuadra #Aqui se importar funciones de calculos
+from calculos import areatri,areacuadra,areacirculo #Aqui se importar funciones de calculos
 from funtions import sumar #Aqui se importa funciones desde funtions
 print("Hola Mundo") #Imprime Hola Mundo
 
@@ -9,7 +9,8 @@ while menu_interactivo:
     print("1 - Area triangular")
     print("2 - Area cuadrada")
     print("3 - Suma")
-    print("4 - Salir")
+    print("4 - Area Circular")
+    print("5 - Salir")
     print("                     ")
     opcion = input("Elije una opcion: ")
 
@@ -30,8 +31,12 @@ while menu_interactivo:
         num2 = float(input("Ingrese numero 2: "))
         resultado = sumar(num1,num2)
         print(f"Resultado de la suma: {resultado}")
-
     if opcion =="4":
+        radio =float(input("Ingrese el radio del circulo: "))
+        resultado = areacirculo(radio)
+        print(f"El area del circulo es: {resultado}")
+
+    if opcion =="5":
         print("Saliendo del programa") 
         break
 
