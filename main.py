@@ -1,6 +1,6 @@
 from calculos import areatri,areacuadra,areacirculo #Aqui se importar funciones de calculos
 from funtions import sumar #Aqui se importa funciones desde funtions
-print("Hola Mundo") #Imprime Hola Mundo
+print("PRACTICA GIT - 13-11-2025") #Imprime Hola Mundo
 
 menu_interactivo = True
 while menu_interactivo:
